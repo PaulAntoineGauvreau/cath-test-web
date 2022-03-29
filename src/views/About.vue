@@ -2,7 +2,7 @@
     <section>
         <h1>About</h1>
             <transition name="fade">
-                <div v-if="showP"> Hey toié!</div>
+                <div v-if="showP" class="hey"> Hey toié!</div>
             </transition>
             <div>
                  <button @click="showP = !showP">Yo</button>
@@ -19,8 +19,6 @@ export default {
         const showP = ref(false)
         return {showP}
     }
-
-    
 }
 
 
@@ -66,4 +64,31 @@ section {
     100% {transform: translateX(0px) }
 }
 
+button {
+    background: var(--white);
+    border: 1px black solid;
+    padding: 5px 20px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+.hey{
+    background: hotpink;
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+button:hover {
+    background: lightgray;
+}
 </style>
