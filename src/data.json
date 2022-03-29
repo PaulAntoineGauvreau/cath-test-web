@@ -1,0 +1,214 @@
+{
+  "projects": [
+    {
+      "name": "Skiwear",
+      "slug": "skiwear",
+      "image": "manteau.jpg",
+      "id": 1,
+      "description": "Skiwear Description",
+      "design": [
+        {
+          "name": "White",
+          "slug": "white",
+          "image": "manteau-blanc.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Red out",
+          "slug": "red-out",
+          "image": "manteau-dehors.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "manteau femme",
+          "slug": "manteau-femme",
+          "image": "manteau-femme.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Flower",
+          "slug": "flower",
+          "image": "manteau-fleur.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Kaki",
+          "slug": "kaki",
+          "image": "manteau-kaki.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Black",
+          "slug": "black",
+          "image": "manteau-noir.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Rouge",
+          "slug": "rouge",
+          "image": "manteau-rouge.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Sketch 2",
+          "slug": "sketch-2",
+          "image": "manteau-sketch2.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Women ski coat",
+          "slug": "Women ski coat",
+          "image": "manteau-ski-femme-3.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Tatum",
+          "slug": "tatum",
+          "image": "manteau-tatum.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Turquoise",
+          "slug": "turquoise",
+          "image": "manteau-turquoise.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Vert",
+          "slug": "vert",
+          "image": "manteau-vert.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Pants ski",
+          "slug": "pants-ski",
+          "image": "pants-ski.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Pants ski 2",
+          "slug": "pants-ski-2",
+          "image": "pants-ski2.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Pants ski 3",
+          "slug": "pants-ski-3",
+          "image": "pants-ski3.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Women Pants",
+          "slug": "women-pants",
+          "image": "patns-femme.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Sketch Manteau",
+          "slug": "sketch-manteau",
+          "image": "sketch-manteau.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Ski manteau 1",
+          "slug": "ski-manteau-1",
+          "image": "ski-manteau1.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Ski manteau 2",
+          "slug": "ski-manteau-2",
+          "image": "ski-manteau2.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "White",
+          "slug": "white",
+          "image": "manteau-blanc.jpeg",
+          "description": "description manteau"
+        },
+        {
+          "name": "Ski manteau 3",
+          "slug": "ski-manteau-3",
+          "image": "ski-manteau3.jpeg",
+          "description": "description manteau"
+        }
+      ]
+    },
+    {
+      "name": "Lifestyle",
+      "slug": "lifestyle",
+      "image": "lifestyle.jpeg",
+      "id": 2,
+      "description": "lifestyle description",
+      "design": [
+        {
+          "name": "Kaki lifestyle",
+          "slug": "kaki-lifestyle",
+          "image": "lifesyle-kaki.jpeg",
+          "description": "description manteau"
+        }
+      ]
+    },
+    {
+      "name": "Midlayers",
+      "slug": "midlayers",
+      "image": "midlayer.jpeg",
+      "id": 3,
+      "description": "Midlayers description",
+      "design": [
+        {
+          "name": "puff",
+          "slug": "puff",
+          "image": "midlayer-puff.jpeg",
+          "description": "description midlayer"
+        }
+      ]
+    },
+    {
+      "name": "Junior",
+      "slug": "junior",
+      "image": "junior.jpeg",
+      "id": 4,
+      "description": "Junior description",
+      "design": [
+        {
+          "name": "Junior kaki",
+          "slug": "junior-kaki",
+          "image": "junior-kaki.jpeg",
+          "description": "description junior kaki"
+        }
+      ]
+    },
+    {
+      "name": "Cycling",
+      "slug": "cycling",
+      "image": "cycling.jpeg",
+      "id": 5,
+      "description": "Cycling description",
+      "design": [
+        {
+          "name": "null",
+          "slug": "null",
+          "image": "null.jpeg",
+          "description": "description cycling"
+        }
+      ]
+    },
+    {
+      "name": "Fun Sketches",
+      "slug": "sketches",
+      "image": "fun.jpeg",
+      "id": 6,
+      "description": "Fun sketches description",
+      "design": [
+        {
+          "name": "Fun manteau sketch",
+          "slug": "fun-manteau-sketches",
+          "image": "fun-manteau.jpeg",
+          "description": "description fun manteau sketches 1"
+        }
+      ]
+    }
+  ]
+}
