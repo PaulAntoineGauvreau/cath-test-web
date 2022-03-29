@@ -3,8 +3,7 @@
 
         <div class="banner-project">
              <img :src="`/images/${project.image}`" :alt="project.name">
-             <div class="triangle"></div>
-             <h1>{{project.name}}</h1>
+             <!-- <h1>{{project.name}}</h1> -->
         </div>
 
     </section>
@@ -50,13 +49,5 @@ h1{
     border-radius: 4px;
 }
 
-.triangle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-top: 50vw solid rgba(0, 0, 0, 0.5);;
-    border-right: 50vw solid transparent;
-}
+
 </style>

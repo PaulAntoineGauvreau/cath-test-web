@@ -1,6 +1,6 @@
 <template>
   <TheNavigationVue/>
-  <router-view></router-view>
+  <router-view class="contenue"></router-view>
 </template>
 
 
@@ -16,5 +16,8 @@
 
 
 <style>
+.contenue{
+  margin-top:75px
+}
 
 </style>

@@ -29,6 +29,7 @@ export default {
 section {
     max-width: 600px;
     margin: auto;
+    margin-top: 80px;
 }
 
 
