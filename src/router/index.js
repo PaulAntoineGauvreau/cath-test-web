@@ -52,7 +52,7 @@ const routes = [
     {
         path:'/:pathMatch(.*)*',
         name: 'NotFound',
-        component: ()=>import('@/views/notFound.vue'),
+        component: ()=>import('@/views/NotFound.vue'),
     }
 ]
 
