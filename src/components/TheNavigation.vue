@@ -115,7 +115,7 @@
     width: 100%;
     padding: 40px;
     left:0;
-    top: 75px;
+    top: 68px;
 }
 
 .cath {
