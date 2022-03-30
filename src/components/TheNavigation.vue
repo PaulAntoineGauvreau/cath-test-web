@@ -9,13 +9,13 @@
         <transition name="menu">
                 <div class="menuSide" v-if="showMenu">
                     
-                    <router-link
+                    <router-link @click="showMenu = !showMenu"
                         v-for="project in projects"
                         :key="project.id"
                         :to="{ name:'project.show',params:{id: project.id, slug:project.slug}}"
                     >
                     {{project.name}}</router-link>
-                    <router-link i to="/about" >About</router-link>
+                    <router-link i to="/about" @click="showMenu = !showMenu">About</router-link>
                 </div>
         </transition>
     </div>

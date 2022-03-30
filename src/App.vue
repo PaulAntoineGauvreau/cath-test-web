@@ -6,9 +6,11 @@
 
 <script>
   import TheNavigationVue from "./components/TheNavigation.vue";
+  
   export default {
     components: {
-      TheNavigationVue
+      TheNavigationVue,
+     
     }
   }
 </script>

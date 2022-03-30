@@ -39,11 +39,11 @@ const routes = [
                 query: to.query,
                 hash: to.hash,
             }
-        }
+         },
         // children: [
         //     {
         //         path:':projectSlug',
-        //         name: 'experience.show', 
+        //         name: 'design.show', 
         //         component: ()=>import('@/views/ExperienceShow.vue'),
         //         props: route=> ({...route.params, id: parseInt(route.params.id)}),
         //     },
