@@ -44,6 +44,7 @@ export default {
 <style scoped>
 
 .banner-project {
+    margin-top:75px;
     position: relative;
     min-height: 100vh;
     overflow: hidden;
