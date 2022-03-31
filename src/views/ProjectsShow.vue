@@ -1,22 +1,23 @@
 <template>
-    <section v-if="project">
-
-        <div class="banner-project">
-             <img :src="`/images/${project.image}`" :alt="project.name">
-             
-        </div>
-        <div class="titre">
-            <div>
-                <h2>{{project.name}}</h2>
-                <p>{{project.description}}</p>
+    <div>
+        <section v-if="project">
+            <div class="banner-project">
+                <img :src="`/images/${project.image}`" :alt="project.name">
+                
             </div>
-        </div>
-        <div class="containerProjet">
-            <ProjectCard :id="project.id"/>
-        </div>
+            <div class="titre">
+                <div>
+                    <h2>{{project.name}}</h2>
+                    <p>{{project.description}}</p>
+                </div>
+            </div>
+            <div class="containerProjet">
+                <ProjectCard :id="project.id"/>
+            </div>
 
-    </section>
-    <FooterComponent/>
+        </section>
+        <FooterComponent/>
+     </div>
 </template>
 
 <script>
