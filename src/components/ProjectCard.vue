@@ -2,7 +2,7 @@
     <div class="cardDesign" v-for="design in project.design" :key="design.name">
             <!-- <h1>{{design.name}}</h1> -->
             <div class="imageContaier">
-                <img :src="`/images/${design.image}`" :alt="design.name">
+                <img :src="`https://res.cloudinary.com/dhlvev5oz/image/upload/catherineLangelier/${design.image}`" :alt="design.name">
             </div>
 
     </div> 

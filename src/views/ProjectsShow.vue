@@ -2,8 +2,7 @@
     <div>
         <section v-if="project">
             <div class="banner-project">
-                <img :src="`/images/${project.image}`" :alt="project.name">
-                
+                <img :src="`https://res.cloudinary.com/dhlvev5oz/image/upload/catherineLangelier/${project.image}`" :alt="project.name">
             </div>
             <div class="titre">
                 <div>

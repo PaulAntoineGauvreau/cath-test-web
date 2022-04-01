@@ -1,6 +1,8 @@
 <template>
     <div class="banner">
-        <img src="/images/cath-flou.jpeg" alt="">
+        <!-- <img src="/images/cath-flou.jpeg" alt=""> -->
+        <img src="https://res.cloudinary.com/dhlvev5oz/image/upload/catherineLangelier/cath-flou.webp" alt="cath flou">
+        
     </div>
 </template>
 
