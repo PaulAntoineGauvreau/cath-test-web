@@ -101,4 +101,8 @@ h2{
     margin: auto;
     justify-content: space-around;
 }
+
+section{
+    position: relative;
+}
 </style>

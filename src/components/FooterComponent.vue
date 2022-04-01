@@ -9,7 +9,7 @@
     </footer>
 </template>
 
-<style scopted>
+<style scoped>
 
 footer {
     height: 100px;
