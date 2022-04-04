@@ -17,6 +17,7 @@ footer {
     color: var(--white);
     font-size: 12px;
     display: flex;
+    margin-top: 20px;
 }
 div {
     margin: auto;

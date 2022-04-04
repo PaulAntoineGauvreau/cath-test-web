@@ -44,7 +44,8 @@ export default{
 
 <style scoped>
 .backgroundModal{
-    background: rgba(0,0,0,0.9);
+    /* background: rgba(0,0,0,0.9); */
+    background: var(--white);
     height: 100vh;
     width: 100%;
     top: 0;
@@ -54,12 +55,14 @@ export default{
 
 .centreModale{
     display: flex;
+    /* background: var(--white); */
     background: var(--white);
     color: black;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+   
 }
 
 img{

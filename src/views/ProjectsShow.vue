@@ -13,21 +13,24 @@
             <div class="containerProjet">
                 <ProjectCard :id="project.id"/>
             </div>
-
+            
         </section>
+        <ButtonBackUp/>
         <FooterComponent/>
      </div>
 </template>
 
 <script>
 import sourceData from '@/data.json'
+import ButtonBackUp from '@/components/ButtonBackUp.vue';
 import ProjectCard from '@/components/ProjectCard.vue';
 import FooterComponent from '@/components/FooterComponent.vue';
 export default {
         components:{
     ProjectCard,
-    FooterComponent
-},
+    FooterComponent,
+    ButtonBackUp
+    },
         props: {
             id: {type: Number, required: true}
         },
